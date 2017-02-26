@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:background="#1d4851">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="PLAY"
+            android:layout_weight="2"
+            android:textSize="200sp"
+            android:background="#41cc22"/>
+        <Button
+            android:id="@+id/bluewin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="WINS"
+            android:layout_weight="2"
+            android:textSize="200sp"
+            android:background="#1ebfff"
+            />
+        <Button
+            android:id="@+id/redwin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="WINS"
+            android:layout_weight="2"
+            android:textSize="200sp"
+            android:background="#ff1e25"/>
+
+        <Button
+            android:id="@+id/player1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="00"
+            android:layout_weight="1"
+            android:textSize="200sp"
+            android:background="#1ebfff"/>
+        <Button
+            android:id="@+id/player2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="00"
+            android:layout_weight="1"
+            android:textSize="200sp"
+            android:background="#ff1e25"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
